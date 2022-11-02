@@ -9,7 +9,6 @@ namespace jumper
         private int count;
         private int trueTries = 0;
 
-
         public Jumper()
         {
             jumper.Add("  ___");
@@ -20,7 +19,6 @@ namespace jumper
             jumper.Add("  /|\\");
             jumper.Add("  / \\");
         }
-
         public bool checkInput(List<char> guesses, string current_guess)
         {
             if (guesses.Contains(current_guess[0]))
@@ -34,7 +32,6 @@ namespace jumper
             }
 
         }
-
         public bool checkJumper(List<char> wordGuess, int tries)
         {
             count = 0;
@@ -60,7 +57,6 @@ namespace jumper
                 return true;
             }
         }
-
         public void printJumper(int tries)
         {
             if (tries == trueTries)

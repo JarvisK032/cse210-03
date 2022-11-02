@@ -18,7 +18,6 @@ namespace jumper
         public TerminalService()
         {
         }
-
         /// <summary>
         /// Gets numerical input from the terminal. Directs the user with the given prompt.
         /// </summary>
@@ -29,7 +28,6 @@ namespace jumper
             string rawValue = ReadText(prompt);
             return rawValue;
         }
-
         /// <summary>
         /// Gets text input from the terminal. Directs the user with the given prompt.
         /// </summary>
@@ -40,7 +38,6 @@ namespace jumper
             Console.Write(prompt);
             return Console.ReadLine();
         }
-
         /// <summary>
         /// Displays the given text on the terminal. 
         /// </summary>
