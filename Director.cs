@@ -16,7 +16,7 @@ namespace jumper
         private string chosenWord;
 
         private TerminalService terminalService = new TerminalService();
-        public HiddenWord hiddenWord = new HiddenWord();
+        public Word hiddenWord = new Word();
         private Jumper jumper = new Jumper();
         public int tries = 0;
         public int numberOfGuesses = 0;
