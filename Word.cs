@@ -6,7 +6,6 @@ namespace jumper
 {
     public class Word
     {
-        public string word;
         List<char> answer = new List<char>();
         public List<char> guess = new List<char>();
 
